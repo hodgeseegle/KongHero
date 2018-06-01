@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KongHero", "Assembly-CSharp.csproj", "{AFE2CF29-58E2-6780-71F9-C3858C3ECDBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KongHero", "Assembly-CSharp-Editor.csproj", "{FAEE0406-D140-4912-9D5E-92444374D142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFE2CF29-58E2-6780-71F9-C3858C3ECDBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE2CF29-58E2-6780-71F9-C3858C3ECDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE2CF29-58E2-6780-71F9-C3858C3ECDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE2CF29-58E2-6780-71F9-C3858C3ECDBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEE0406-D140-4912-9D5E-92444374D142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEE0406-D140-4912-9D5E-92444374D142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEE0406-D140-4912-9D5E-92444374D142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEE0406-D140-4912-9D5E-92444374D142}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

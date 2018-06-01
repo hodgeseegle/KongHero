@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{AFE2CF29-58E2-6780-71F9-C3858C3ECDBD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_VIDEO;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Admob\Ads\AdsController.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\ICustomInAppPurchase.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\ICustomInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\IDefaultInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\IInAppPurchaseResult.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\CustomInAppPurchaseListener.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\DefaultInAppPurchaseListener.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\InAppPurchase.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Answers.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersAndroidImplementation.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersAppleImplementation.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersStubImplementation.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\IAnswers.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Crashlytics.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\CrashlyticsInit.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\AndroidImpl.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\IOSImpl.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\Impl.cs" />
+     <Compile Include="Assets\Fabric\Runtime\Fabric.cs" />
+     <Compile Include="Assets\Fabric\Runtime\FabricInit.cs" />
+     <Compile Include="Assets\Fabric\Runtime\FabricUtils.cs" />
+     <Compile Include="Assets\Fabric\Runtime\Internal\AndroidImpl.cs" />
+     <Compile Include="Assets\Fabric\Runtime\Internal\IOSImpl.cs" />
+     <Compile Include="Assets\Fabric\Runtime\Internal\Impl.cs" />
+     <Compile Include="Assets\Fabric\ThirdParty\MiniJSON.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\BOSS_1.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\BOSS_2.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\BOSS_3.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\BirdAI.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\BirdDetectPlayerHelper.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\ChasingStone.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\DetectMonsterFalling.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\DetectPlayerAndSendMessage.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\EnemyAI.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\FireBallAI.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\FireEvil.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\FishAI.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\FlameFire.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\GiveDamageToPlayer.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\HealthBarEnemy.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\MonsterFish.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\MonsterFishDetect.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\MonsterIV.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\MonsterSimpleAI.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\MonsterSnail.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\MonsterTriggerHelper.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\PathDefinition.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\PathedProjectile.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\PathedProjectileSpawner.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\Projectile.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AI\SimpleProjectile.cs" />
+     <Compile Include="Assets\Kong Hero\Script\AutoSpawn.cs" />
+     <Compile Include="Assets\Kong Hero\Script\CameraFollow.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Environment\Block.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Environment\Coin.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Environment\GameFinishFlag.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Environment\GiveBullet.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Environment\GiveHealth.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Environment\ItemAddPoint.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Environment\Spring.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Environment\WaterScrollingEffect.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\CharacterHolder.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\ControllerInput.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\FloatingText.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\LoadingSreen.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\MainMenuHomeScene.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\MainMenuShopItems.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\MainMenuUpdateCoins.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\MainMenu_ChracterChoose.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\MainMenu_Level.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\MainMenu_StartMenu.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\MainMenu_World.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\MenuManager.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\Menu_GUI.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\Menu_Gamefinish.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\Menu_Gameover.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\Menu_StartScreen.cs" />
+     <Compile Include="Assets\Kong Hero\Script\GUI\ResetData.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\AutoDestroy.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\BackGroundController.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\BlockDestroyEffect.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\CameraFadeInEffect.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\CloseGateBoss.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\FollowObject.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\KillPlayerOnTouch.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\RayCastCheckCollision.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\ResetBoundCamera.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Helper\SpawnItem.cs" />
+     <Compile Include="Assets\Kong Hero\Script\MainMenuHelper.cs" />
+     <Compile Include="Assets\Kong Hero\Script\NotEnoughCoins.cs" />
+     <Compile Include="Assets\Kong Hero\Script\PlatformController.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Player\Controller2D\Controller2D.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Player\Controller2D\Player.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Player\Controller2D\RaycastController.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Player\HealthBar.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Player\ICanTakeDamage.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Player\IPlayerRespawnListener.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Player\MeleeAttack.cs" />
+     <Compile Include="Assets\Kong Hero\Script\Player\RangeAttack.cs" />
+     <Compile Include="Assets\Kong Hero\Script\ServiceCalling.cs" />
+     <Compile Include="Assets\Kong Hero\Script\ServiceManager.cs" />
+     <Compile Include="Assets\Kong Hero\Script\SimplePathedMoving.cs" />
+     <Compile Include="Assets\Kong Hero\Script\System\CheckPoint.cs" />
+     <Compile Include="Assets\Kong Hero\Script\System\GameManager.cs" />
+     <Compile Include="Assets\Kong Hero\Script\System\GlobalValue.cs" />
+     <Compile Include="Assets\Kong Hero\Script\System\LevelManager.cs" />
+     <Compile Include="Assets\Kong Hero\Script\System\SoundManager.cs" />
+     <Compile Include="Assets\UnityAds\UnityAds.cs" />
+     <None Include="Assets\Fabric\NOTICE.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\NOTICE.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics-wrapper\AndroidManifest.xml" />
+     <None Include="Assets\Admob\Plugins\Android\MainLibProj\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric-init\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\crashlytics\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\answers\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\NOTICE.txt" />
+     <None Include="Assets\Plugins\Android\fabric\AndroidManifest.xml" />
+     <None Include="Assets\Admob\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\Template-AndroidManifest.xml" />
+     <None Include="Assets\Admob\Readme.txt" />
+     <None Include="Assets\Plugins\Android\fabric\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\beta\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\crashlytics\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\THIRDPARTYLICENSE.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Analytics">
+ <HintPath>/Users/developer/Ivan/Projects/KongHero/Assets/Fabric/Managed/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Validator">
+ <HintPath>/Users/developer/Ivan/Projects/KongHero/Assets/Fabric/Managed/Validator.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
